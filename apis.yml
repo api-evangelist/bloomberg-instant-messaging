@@ -6,7 +6,7 @@ description: Bloomberg Instant Messaging (IB) is a secure, compliant messaging p
   compliance monitoring, and integration capabilities. Bloomberg also provides B-Chat
   for broader enterprise messaging connectivity.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-instant-messaging/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-21'
