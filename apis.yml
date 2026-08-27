@@ -1,10 +1,9 @@
 aid: bloomberg-instant-messaging
 name: Bloomberg Instant Messaging
-description: Bloomberg Instant Messaging (IB) is a secure, compliant messaging platform
-  embedded in the Bloomberg Terminal and accessible via Bloomberg Anywhere. It enables
-  real-time communication between financial professionals globally, with message archiving,
-  compliance monitoring, and integration capabilities. Bloomberg also provides B-Chat
-  for broader enterprise messaging connectivity.
+description: Bloomberg Instant Messaging (IB) is a secure, compliant messaging platform embedded in the Bloomberg
+  Terminal and accessible via Bloomberg Anywhere. It enables real-time communication between financial professionals
+  globally, with message archiving, compliance monitoring, and integration capabilities. Bloomberg also provides
+  B-Chat for broader enterprise messaging connectivity.
 type: Index
 accessModel:
   pricing: freemium
@@ -21,7 +20,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-instant-messaging.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-instant-messaging/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-21'
+modified: '2026-08-27'
 specificationVersion: '0.23'
 tags:
 - Messaging
@@ -33,9 +32,9 @@ tags:
 apis:
 - aid: bloomberg-instant-messaging:bloomberg-ib-api
   name: Bloomberg IB Messaging API
-  description: Programmatic access to Bloomberg's secure IB messaging network for
-    sending and receiving messages within the Bloomberg Terminal ecosystem. Supports
-    integration with trading and compliance systems for automated messaging workflows.
+  description: Programmatic access to Bloomberg's secure IB messaging network for sending and receiving messages
+    within the Bloomberg Terminal ecosystem. Supports integration with trading and compliance systems for automated
+    messaging workflows.
   humanURL: https://www.bloomberg.com/professional/product/bloomberg-messaging/
   baseURL: blpapi://localhost:8194
   tags:
@@ -48,9 +47,9 @@ apis:
     url: https://www.bloomberg.com/professional/product/bloomberg-messaging/
 - aid: bloomberg-instant-messaging:bloomberg-bchat
   name: Bloomberg B-Chat
-  description: Bloomberg's enterprise communication platform extending the Bloomberg
-    messaging network to broader enterprise connectivity, enabling compliant communication
-    with financial counterparties outside the Bloomberg Terminal.
+  description: Bloomberg's enterprise communication platform extending the Bloomberg messaging network to broader
+    enterprise connectivity, enabling compliant communication with financial counterparties outside the Bloomberg
+    Terminal.
   humanURL: https://www.bloomberg.com/professional/product/bloomberg-messaging/
   baseURL: https://messaging.bloomberg.com
   tags:
@@ -61,6 +60,11 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/product/bloomberg-messaging/
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
+  name: Bloomberg
+  x-relationship: product
+  x-generated-by: bloomberg-family:2026-08-27
 - type: DomainSecurity
   url: security/bloomberg-instant-messaging-domain-security.yml
 - type: Portal
@@ -76,8 +80,7 @@ common:
 - type: Features
   data:
   - name: Secure Messaging
-    description: End-to-end secure messaging between financial professionals on the
-      Bloomberg network.
+    description: End-to-end secure messaging between financial professionals on the Bloomberg network.
   - name: Message Archiving
     description: Automatic message archiving for compliance and regulatory requirements.
   - name: Compliance Controls
@@ -87,8 +90,7 @@ common:
   - name: File Sharing
     description: Secure file and document sharing within the messaging platform.
   - name: Bloomberg Anywhere Access
-    description: Access Bloomberg messaging from mobile and remote devices via Bloomberg
-      Anywhere.
+    description: Access Bloomberg messaging from mobile and remote devices via Bloomberg Anywhere.
 - type: UseCases
   data:
   - name: Trade Negotiation
@@ -102,3 +104,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kinlane@gmail.com
+x-parent: bloomberg
+x-relationship: product
