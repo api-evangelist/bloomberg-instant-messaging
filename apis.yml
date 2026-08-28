@@ -5,6 +5,17 @@ description: Bloomberg Instant Messaging (IB) is a secure, compliant messaging p
   globally, with message archiving, compliance monitoring, and integration capabilities. Bloomberg also provides
   B-Chat for broader enterprise messaging connectivity.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
